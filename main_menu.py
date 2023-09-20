@@ -73,15 +73,20 @@ def ver_resumen_fondo():
     path_registro = os.path.join('data', 'registro.csv')
     registro = pd.read_csv(path_registro, sep=';', encoding='utf-8')
     
+    
     path_resumen_BART = os.path.join('data', 'resumen_BART.csv')
     resumen_BART = pd.read_csv(path_resumen_BART, sep=';', encoding='utf-8')  
+
     path_resumen_PEGASUS = os.path.join('data', 'resumen_PEGASUS.csv')
     resumen_PEGASUS = pd.read_csv(path_resumen_PEGASUS, sep=';', encoding='utf-8')  
 
+
     path_sentimientos = os.path.join('data', 'sentimientos.csv')
     sentimientos_TEXTO = pd.read_csv(path_sentimientos, sep=';', encoding='utf-8') 
+
     path_sentimientos_BART = os.path.join('data', 'sentimientos_BART.csv')
     sentimientos_BART = pd.read_csv(path_sentimientos_BART, sep=';', encoding='utf-8')
+
     path_sentimientos_PEGASUS = os.path.join('data', 'sentimientos_PEGASUS.csv')
     sentimientos_PEGASUS = pd.read_csv(path_sentimientos_PEGASUS, sep=';', encoding='utf-8')
 
