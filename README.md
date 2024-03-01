@@ -10,6 +10,9 @@ Este proyecto final de máster tiene como objetivo realizar un análisis de sent
 
 ## Estructura del proyecto
 
+Working in progres...
+
+![](https://geps.dev/progress/65)
 
 ## Autor
 
